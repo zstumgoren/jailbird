@@ -1,6 +1,6 @@
 #Jailbird
 
-Jailbird is a Python scraper that parses the Florida Department of Correction's inmate mortality [database](http://www.dc.state.fl.us/pub/mortality/) and creates a spreadsheet of every death reported to the agency since 2000. 
+Jailbird is a Python scraper that parses the Florida Department of Corrections' inmate mortality [database](http://www.dc.state.fl.us/pub/mortality/) and creates a spreadsheet of every death reported to the agency since 2000. 
 
 This is a tool used by the Miami Herald for its [investigation](http://www.miamiherald.com/news/special-reports/florida-prisons/) into suspicious inmate deaths at prisons statewide.
 
