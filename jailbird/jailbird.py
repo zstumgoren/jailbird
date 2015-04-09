@@ -151,7 +151,8 @@ with open('base.csv', 'w') as csvfile:
 			('573-ZEPHYRHILLS C.I.', 'Zephyrhills Correctional Institution'),
 			('576-HENDRY C.I.', 'Hendry Correctional Institution'),
 			('580-POLK C.I.', 'Polk Correctional Institution'),
-			('583-ST. PETE C.R.C.', 'St. Petersburg Community Release Center')
+			('583-ST. PETE C.R.C.', 'St. Petersburg Community Release Center'),
+			('160-GRACEVILLE WORK CAMP', 'Graceville Correctional Facility')
 		]
 
 		# grab jail variable
@@ -267,8 +268,6 @@ with open('base.csv', 'r') as csvinput:
 				row.append(sex)
 				row.append(race)
 				row.append(dob)
-
-				# row.append(age)
 				
 				# everything into rows
 				writer.writerow(row)
