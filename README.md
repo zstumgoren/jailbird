@@ -41,7 +41,8 @@ After the script runs, Jailbird deletes `base.csv` and leaves you with clean and
 3. Jailbird does need some tools to work. Enter `pip install -r requirements.txt`. This will install:
 	* **BeautifulSoup**, an HTML parser.
 	* **requests**, an HTTP library.
-	* **htmllib**, a secondary, HTML document parser.
+	* **html5lib**, a secondary, HTML document parser.
+	* **lxml**, a XML parser.
 	
 4. Now enter `python jailbird.py`
 
