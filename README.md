@@ -27,7 +27,7 @@ Jailbird then takes the DC Number from `base.csv` and loops through each inmate'
 |------------|------------|---------------|--------|----------|-------------|--------|---------|---------------|
 | John Smith | 123456     | 04/08/2015    | Jail A | Natural  | Pending     | Male   | White   | 03/14/1987    |
 | Jane Doe   | 789101     | 04/07/2015    | Jail B | Homicide | Pending     | Female | Black   | 05/12/1973    |
-| John Doe   | 121314     | 04/05/2015    | Jail B | Natural  | Pending     | Male   | Unknown | Unknown       |
+| John Doe   | 121314     | 04/05/2015    | Jail B | Natural  | Pending     | Unknown   | Unknown | Unknown       |
 
 
 Jailbird has to navigate more than 4,000 entires, so this take some time. Please allow at least 20 minutes for it to run. 
@@ -53,7 +53,7 @@ Ready to try it for yourself?
 ##When to use it
 
 
-The FDOC often does maintenence work on its website between 11:30 p.m. and 2 p.m. Monday through Saturday. This means the agency blocks access to the inmate's profile pages, and Jailbird will return "Unknown" for each row in `data.csv` if you run it during those hours. 
+The FDOC often does maintenence work on its website between 11:30 p.m. and 2 p.m. Monday through Saturday. This means the agency blocks access to the inmate's profile pages, and Jailbird will return "Unknown" for each row in `data.csv` if you run it during those hours.   
 
 
 This is a work in progress. Please submit a pull request if you think this can be improved. Questions? Message me here or send me at [calcantara@miamiherald.com](mailto:calcantara@miamiherald.com).
