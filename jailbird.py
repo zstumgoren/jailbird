@@ -23,7 +23,7 @@ xml = urllib2.urlopen(url).read()
 # parse it
 soup_xml = BeautifulSoup(xml, 'html5lib')
 
-with open('data-test.csv', 'w') as csvfile:
+with open('base.csv', 'w') as csvfile:
 
 	# add headers
 	writer = csv.DictWriter(csvfile, fieldnames = ['Name', 'DC Number', 'Date of Death', 'Jail', 'Cause', 'Case Status'], delimiter = ',')
@@ -194,7 +194,7 @@ with open('data-test.csv', 'w') as csvfile:
 print 'XML scrape complete.'
 
 # open xml file and write it to finished file
-with open('base-data.csv', 'r') as csvinput:
+with open('base.csv', 'r') as csvinput:
 
 	with open('data.csv', 'w') as csvoutput:
 		
@@ -272,6 +272,6 @@ with open('base-data.csv', 'r') as csvinput:
 				writer.writerow(row)
 
 #remove xml loading file.
-os.remove("base-data.csv")
+os.remove("base.csv")
 
 print 'Done!'
