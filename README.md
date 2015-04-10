@@ -53,4 +53,4 @@ After the script runs, Jailbird deletes `base.csv` and leaves you with clean and
 
 The FDOC conducts maintenance work on its website between 11:30 p.m. and 2 p.m. Monday through Saturday. This means the agency blocks access to the inmate's profiles. If you run Jailbird during these hours, it will return "Unknown" in the last three columns for each row in `data.csv`.
 
-This is a work in progress. Please submit a pull request if you think this can be improved. Questions? Message me here or send me at [calcantara@miamiherald.com](mailto:calcantara@miamiherald.com).
+This is a work in progress. Please submit a pull request if you think this can be improved, or let me know of any issues. Questions? Message me here or send me an email at [calcantara@miamiherald.com](mailto:calcantara@miamiherald.com).
